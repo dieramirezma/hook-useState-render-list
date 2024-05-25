@@ -5,7 +5,7 @@ function App() {
 
   return (
     <>
-      <h1>Renderizando listas</h1>
+      <h1 className='font-bold text-3xl'>Renderizando listas</h1>
       <Persons />
     </>
   )
