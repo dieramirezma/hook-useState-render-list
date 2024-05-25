@@ -1,8 +1,20 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Usage
+1. Clone this repo:
+``` bash
+git clone https://github.com/dieramirezma/hook-useState-render-list.git # HTTPS
+git clone git@github.com:dieramirezma/hook-useState-render-list.git # SSH
+gh repo clone dieramirezma/hook-useState-render-list # Github CLI
+cd ./hook-useState-render-list/
+```
 
-Currently, two official plugins are available:
+2. Install dependencies:
+```bash
+npm install
+```
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+3. Run dev server:
+```bash
+npm run dev
+```
