@@ -1,8 +1,7 @@
 import './App.css'
 import { Persons } from './components/Persons'
 import { useState } from 'react'
-function App() {
-
+function App () {
   const [persons, setPersons] = useState(
     [
       {
